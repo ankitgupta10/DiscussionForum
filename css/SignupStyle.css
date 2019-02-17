@@ -1,0 +1,167 @@
+body
+{
+    background-image: url("../images/bg1.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: verdana;
+}
+.button
+{
+    background-color: #737373;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 98%;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+}
+.button:hover
+{
+    width: 75%;
+    background-color: #4CAF50;
+    color: white;
+}
+.button:focus
+{
+    outline: none;
+}
+div.nav
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+div.img
+{
+    position: absolute;
+    float: left;
+    left: 18%;
+}
+#divider
+{
+    height: 100px;
+    width: 2px;
+    position: absolute;
+    float: left;
+    left: 32%;
+}
+div.mainSignup
+{
+    width: 45%;
+    margin: 50px auto;
+}
+div.selectStudent
+{
+    width: 49%;
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding: 15px 0px;
+    border-radius: 25px;
+    background-color: white;
+}
+div.selectTeacher
+{
+    width: 49%;
+    text-align: center;
+    float: right;
+    padding: 15px 0px;
+    margin-top: 15px;
+    margin-right: 0px;
+    border-radius: 25px;
+    background-color: white;
+}
+.button1
+{
+    background-color: #737373;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 49%;
+}
+.button1:hover
+{
+    background-color: #4CAF50;
+    color: white;
+}
+.hidden
+{
+    display: none;
+    color: white;
+    font-family: verdana;
+    background-color: red;
+    opacity: 0.45;
+}
+.hidden1
+{
+    display: none;
+}
+input[type=text]
+{
+    border-radius: 25px;
+    width: 49%;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+input[type=password]
+{
+    border-radius: 25px;
+    width: 49%;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+#mob
+{
+    width: 99%
+}
+#em
+{
+    width: 99%
+}
+#uid
+{
+    width: 99%
+}
+input[type=text]:focus
+{
+    outline: none;
+    border-bottom: 4px solid #4CAF50;
+}
+input[type=password]:focus
+{
+    outline: none;
+    border-bottom: 4px solid #4CAF50;
+}
+input[type=button]:focus
+{
+    outline: none;
+}
+p
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color: white;
+    opacity: 0.5;
+}

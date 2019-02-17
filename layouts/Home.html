@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>STD Forum | Home</title>
+        <link rel="stylesheet" type="text/css" href="css/HomeStyle.css">
+        <link rel="shortcut icon" href="images/logo1.png" type="image/png">
+        <script src="javascript/HomeScript.js"></script>
+    </head>
+    <body>
+        
+        <div class="nav" id="nav">
+            <div class="image">
+            <img src="images/logo1.png" alt="Logo">
+            </div>
+            <img src="images/divider.jpg" alt="|" id="divider">
+            <a href="Logout.html"><button class="button1" id="logout">Logout</button></a>
+            <h2>Student Teacher Discussion Forum</h2>
+            <h4>Let's Talk | Feel Free to Speak</h4>
+        </div>
+
+        <center>
+            <button class="button1" id="newdisc" onclick="showModal()">New Discussion</button>
+        </center>
+
+        <form class="newdisc" id="disctitle" action="#">
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <input type="text" name="title" id="title" placeholder="What it is about?">
+            </div>
+            <div class="modal-body">
+                <textarea id="description" placeholder="A little Description! (max 500 characters)" maxlength="500"></textarea>
+            </div>
+            <div class="modal-footer">
+                <input type="reset" class="button1" id="cancel" value="Cancel">
+                <input type="submit" class="button1" id="post" value="Post">
+            </div>
+        </div>
+        </div>
+        </form>
+
+        <br>
+        <div>
+        <div class="trending" id="trend">
+            <div class="headtrend">
+                Trending Discussions
+            </div>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+            this is to test<br>
+
+        </div>
+        <div class="discuss" id="disc">
+            <div class="headdisc">
+                Discussion Area
+            </div>
+        </div>
+        <div class="latest" id="latest">
+            <div class="headlatest">
+                Latest Discussions
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+body
+{
+    background-image: url("../images/bg1.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: verdana;
+    color: white;
+}
+.button
+{
+    background-color: #737373;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 100%;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+    outline: none;
+}
+.button:hover
+{
+    width: 75%;
+    background-color: #4CAF50;
+    color: white;
+}
+div.main
+{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+div.nav
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+div.image
+{
+    position: absolute;
+    float: left;
+    left: 18%;
+}
+#divider
+{
+    height: 100px;
+    width: 2px;
+    position: absolute;
+    float: left;
+    left: 32%;
+}
+input[type=text]
+{
+    border-radius: 25px;
+    font-family: verdana;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+input[type=password]
+{
+    border-radius: 25px;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+input[type=text]:focus
+{
+    outline: none;
+    border-bottom: 4px solid #4CAF50;
+}
+input[type=password]:focus
+{
+    outline: none;
+    border-bottom: 4px solid #4CAF50;
+}
+p
+{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    color: white;
+    opacity: 0.5;
+}
+#warn
+{
+    display: none;
+    font-family: verdana;
+    margin-top: 50px;
+    color: white;
+    background-color: red;
+    opacity: 0.45;
+}

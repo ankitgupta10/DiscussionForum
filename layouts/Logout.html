@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>STD Forum | Logout</title>
+        <link rel="stylesheet" type="text/css" href="css/LoginStyle.css">
+        <link rel="shortcut icon" href="images/logo1.png" type="image/png">
+        <script src="javascript/LoginScript.js"></script>
+    </head>
+    <body>
+
+        <div class="nav">
+            <div class="image">
+            <img src="images/logo1.png" alt="Logo">
+            </div>
+            <img src="images/divider.jpg" alt="|" id="divider">
+            <h2>Student Teacher Discussion Forum</h2>
+            <h4>Let's Talk | Feel Free to Speak</h4>
+        </div>
+
+        <p id="wc"><b>You have Successfully Logged out!</b></p>
+
+        <div>
+            <form>
+            <center>
+            <input type="text" id="warn" style="width:300px;"
+                   name="warn" placeholder="Enter valid Credentials" disabled>
+            </center>
+            </form>
+        </div>
+
+        <div class="main">
+        <form name="registrationForm" onsubmit="return validateLogin()" action="#" method="POST">
+            <input type="text" name="username" id="un" placeholder="User ID">
+            <input type="password" name="pass" id="pw" placeholder="Password">
+            <center>
+            <input type="submit" class="button" value="Login">
+            </center>
+        </form>
+        </div>
+    </body>
+</html>
